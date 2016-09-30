@@ -1,0 +1,13 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: TNT
+  host: TNT
+  disk_quota: 1024M
+  services:
+  - performance-monitoring-auto
+  env:
+    Consumer Reference: CR-1289325597
+    Description: TNT Consignment details
